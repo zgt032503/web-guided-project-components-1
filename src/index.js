@@ -34,10 +34,15 @@ function makeImage({ imageURL }) {
   image.setAttribute('src', imageURL);
   return image
 }
+function makeImage({ imageURL }) {
+  const image = document.createElement('img');
+  image.setAttribute('src', imageURL);
+  return image
+}
 console.log(makeImage('href'))
 
-imageData.forEach(url => {
-  document.body.appendChild(makeImage());
+imageData.forEach(imgObj => {
+  document.body.appendChild(makeImage(imgObj));
 })
 
 // TASK 1- Import the data we need to "hydrate" our component.
