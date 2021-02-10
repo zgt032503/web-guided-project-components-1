@@ -34,11 +34,17 @@ function makeImage({ imageURL }) {
   image.setAttribute('src', imageURL);
   return image
 }
-function makeImage({ imageURL }) {
-  const image = document.createElement('img');
-  image.setAttribute('src', imageURL);
-  return image
-}
+// function makeImage({ imageURL }) {
+//   const image = document.createElement('img');
+//   image.setAttribute('src', imageURL);
+//   return image
+// }
+console.log(makeImage('href'))
+console.log(makeImage('href'))
+console.log(makeImage('href'))
+console.log(makeImage('href'))
+console.log(makeImage('href'))
+console.log(makeImage('href'))
 console.log(makeImage('href'))
 
 imageData.forEach(imgObj => {
