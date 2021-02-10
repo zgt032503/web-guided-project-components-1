@@ -29,7 +29,8 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
 
-function makeImage({ imageURL }) {
+function makeImage(imgObj) {
+  const { im}
   const image = document.createElement('img');
   image.setAttribute('src', imageURL);
   return image
@@ -39,13 +40,7 @@ function makeImage({ imageURL }) {
 //   image.setAttribute('src', imageURL);
 //   return image
 // }
-console.log(makeImage('href'))
-console.log(makeImage('href'))
-console.log(makeImage('href'))
-console.log(makeImage('href'))
-console.log(makeImage('href'))
-console.log(makeImage('href'))
-console.log(makeImage('href'))
+
 
 imageData.forEach(imgObj => {
   document.body.appendChild(makeImage(imgObj));
