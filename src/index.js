@@ -52,8 +52,10 @@ const imageData = [
 //  Destructure `open` and `close` from the constants
 import panelData from './data/panelData'
 import constants from './data/constants'
-const open = constants.open
-console.log(open)
+// const open = constants.open
+// const close = constants.close
+const 
+console.log(close)
 
 
 // TASK 2- Verify our imports using log statements
