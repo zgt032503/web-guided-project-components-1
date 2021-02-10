@@ -52,6 +52,7 @@ const imageData = [
 //  Destructure `open` and `close` from the constants
 
 
+
 // TASK 2- Verify our imports using log statements
 console.log() // log the panelData
 console.log() // log the open arrow
