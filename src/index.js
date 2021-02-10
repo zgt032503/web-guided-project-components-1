@@ -36,6 +36,10 @@ function makeImage(imgUrl) {
 }
 console.log(makeImage('href'))
 
+imageData.forEach(img => {
+  
+})
+
 
 // TASK 1- Import the data we need to "hydrate" our component.
 //  On the one hand, the default export from data/panelData.js
