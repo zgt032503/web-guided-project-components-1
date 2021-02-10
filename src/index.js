@@ -142,7 +142,8 @@ function makePanel({ title, content }/* what data does the panel need? */) {
   return panel
 }
 
-console.log(makePanel({title: 'title', content: 'content'}))
+
+accordion.appendChild(makePanel({title: 'title', content: 'content'})))
 
 
 // TASK 10- Loop through the panelData we imported from the data folder
