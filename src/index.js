@@ -31,7 +31,8 @@ const imageData = [
 
 function makeImage(imgURL) {
   // img tag
-  // 
+  // set img src
+  // return img
 
 }
 
