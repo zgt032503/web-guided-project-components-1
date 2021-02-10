@@ -153,7 +153,9 @@ function makePanel({ title, content }/* what data does the panel need? */) {
 //   accordion.appendChild(makePanel(panelObj))
 // })
 
-const 
+const panelElements = panelData.map(panelObj => {
+  const panel 
+})
 
 // [STRETCH] Comment out the links inside the nav and
 // write a linkMaker that takes { href, className, text }
