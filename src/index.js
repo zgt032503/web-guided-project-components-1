@@ -1,3 +1,25 @@
+// we want to display some text
+// we color the text
+// the element h1
+const titles = ['Yeti', 'Abominable Snowman', 'Bigfoot'];
+
+function titleMaker (text, color) {
+  const title = document.createElement('h1')
+  title.textContent = text
+  title.style.color = color
+  return title
+}
+
+const title1 = titleMaker('Pizza', 'red')
+console.log(title1)
+document.body.appendChild(title1);
+
+titles.forEach(title => {
+  document.body.appendChild(titleMaker(title, 'red'))
+})
+
+
+
 // TASK 0- Motivate demoing a small makeImage component
 //  that takes an { imgURL } and returns an img element.
 //  Then loop over these URLs making images as you go:
