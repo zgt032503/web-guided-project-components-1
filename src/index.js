@@ -29,15 +29,15 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
 
-function makeImage(imgUrl) {
+function makeImage({ imageURL }) {
   const image = document.createElement('img');
-  image.setAttribute('src', imgUrl);
+  image.setAttribute('src', imageURL);
   return image
 }
 console.log(makeImage('href'))
 
 imageData.forEach(url => {
-  document.body.appendChild(makeImage(url["imageURL"]));
+  document.body.appendChild(makeImage());
 })
 
 // TASK 1- Import the data we need to "hydrate" our component.
