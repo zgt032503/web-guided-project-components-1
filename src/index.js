@@ -124,6 +124,8 @@ function makePanel({ title, content }/* what data does the panel need? */) {
   return null
 }
 
+console.log(makePanel({}))
+
 
 // TASK 10- Loop through the panelData we imported from the data folder
 //  creating panels for each content and title and append them to the DOM.
