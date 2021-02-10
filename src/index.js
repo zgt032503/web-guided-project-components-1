@@ -34,6 +34,7 @@ function makeImage(imgUrl) {
   image.setAttribute('src', imgUrl);
   return image
 }
+console.log(makeImage('href'))
 
 
 // TASK 1- Import the data we need to "hydrate" our component.
