@@ -30,7 +30,7 @@ const imageData = [
 ]
 
 function makeImage(imgObj) {
-  const { im}
+  const { imageURL } = imgObj
   const image = document.createElement('img');
   image.setAttribute('src', imageURL);
   return image
