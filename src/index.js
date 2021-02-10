@@ -121,10 +121,10 @@ function makePanel({ title, content }/* what data does the panel need? */) {
 
 
   // don't forget to return the panel!
-  return null
+  return panel
 }
 
-console.log(makePanel({}))
+console.log(makePanel({title: 'title', content: 'content'}))
 
 
 // TASK 10- Loop through the panelData we imported from the data folder
