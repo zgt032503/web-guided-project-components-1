@@ -76,13 +76,13 @@ function makePanel({ title, content }/* what data does the panel need? */) {
 
 
   // TASK 5- Instantiate all the elements needed for a panel
-  const panel = change to something .createElement('div')
-  const panelBar = change to something .createElement('div')
-  const panelContent = change to something .createElement('div')
-  const panelTitle = change to something .createElement('h3')
-  const panelButtons = change to something .createElement('div')
-  const openButton = change to something .createElement('button')
-  const closeButton = change to something .createElement('button')
+  const panel = document.createElement('div')
+  const panelBar = document.createElement('div')
+  const panelContent = document.createElement('div')
+  const panelTitle = document.createElement('h3')
+  const panelButtons = document.createElement('div')
+  const openButton = document.createElement('button')
+  const closeButton = document.createElement('button')
 
 
   // TASK 6- Setup the structure of our elements
