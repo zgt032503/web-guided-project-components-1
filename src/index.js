@@ -29,11 +29,10 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
 
-function makeImage(imgURL) {
-  // img tag
-  // set img src
-  // return img
-
+function makeImage(imgUrl) {
+  const image = document.createElement('img');
+  image.setAttribute('src', imgUrl);
+  return image
 }
 
 
