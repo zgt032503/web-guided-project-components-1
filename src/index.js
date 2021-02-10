@@ -67,7 +67,7 @@ console.log() // log the close arrow
 //  We will generate the panel with code, and we'll need the parent
 //  so we can append the code-generated panel to the DOM.
 const accordion = document.querySelector(".accordion");
-console.log(accordion)
+// console.log(accordion)
 
 
 // TASK 4- Create a function 'makePanel' that creates a panel exactly as you see it in the HTML.
