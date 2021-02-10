@@ -132,7 +132,7 @@ function makePanel({ title, content }/* what data does the panel need? */) {
   //  - the open button needs to go away (the 'hide-btn' class name controls this)
   //  - the close button needs to show (the 'hide-btn' class name controls this)
   //  - the contents need to show (the 'toggle-on' class name controls this)
-
+  
 
   // don't forget to return the panel!
   return panel
