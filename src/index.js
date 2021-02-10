@@ -50,7 +50,8 @@ const imageData = [
 //  On the one hand, the default export from data/panelData.js
 //  On the other hand, the default export from data/constants.js
 //  Destructure `open` and `close` from the constants
-import panelData from ''
+import panelData from './data/panelData'
+
 
 
 // TASK 2- Verify our imports using log statements
